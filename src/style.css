@@ -1,1 +1,28 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: #1ab10b;
+}
+div.carta {
+  height: 350px;
+  width: 280px;
+  background-color: white;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 100px;
+}
+#numero {
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 10%;
+  font-size: 80px;
+  font-family: "Roboto", sans-serif;
+}
+#EsquinaArriba {
+  padding: 5%;
+  font-size: 70px;
+}
+#EsquinaAbajo {
+  padding: 5%;
+  font-size: 70px;
+  text-align: right;
+}
