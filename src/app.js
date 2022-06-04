@@ -1,3 +1,10 @@
+/* eslint-disable */
+import "bootstrap";
+import "./style.css";
+
+import "./assets/img/rigo-baby.jpg";
+import "./assets/img/4geeks.ico";
+
 const palos = ["corazon", "diamante", "pica", "trebol"];
 const valores = [
   "A",
@@ -63,4 +70,3 @@ function generacionCarta() {
 window.onload = function() {
   generacionCarta();
 };
-// document.querySelector(".boton").addEventListener("click", generacionCarta);
